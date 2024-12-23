@@ -37,8 +37,12 @@ DB_CONFIG = {
 ### 4. 功能主界面
 ![12.png](https://s2.loli.net/2024/12/23/Ics8VplfX1J7BaQ.png)
 
+### 5. 多表连接查询微调
+![image](https://github.com/user-attachments/assets/d669bc27-65c1-4ccf-903c-054c58e8ae16)
+
+
 ### 5. Todo List
-- [ ] 完成多表查询的功能
+- [x] 完成多表查询的功能
 - [ ] 完善页面可视化功能
 - [ ] 增加保存查询结果功能
 - [ ] 完成机器学习+结果可视化功能（线性回归、聚类等功能）
