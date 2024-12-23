@@ -2,12 +2,15 @@
 一个无代码自然语言执行数据分析查询系统
 
 ### 1. 依赖库
+#### 1.1 python依赖库
 ```
-pymysql
-pandas
-matplotlib
-gradio
+pymysql 1.1.1
+pandas 2.2.3
+matplotlib 3.9.3
+gradio 5.9.1
 ```
+#### 1.2 数据库
+基于Mysql，无版本要求。
 
 ### 2. 运行配置项
 需要在test.py中填入密钥信息：
@@ -21,7 +24,7 @@ api_key ="xxx"    #填写控制台中获取的 APIKey 信息
 ```
 # 数据库连接配置
 DB_CONFIG = {
-    "host": "xxxx.net",
+    "host": "xxxx",
     "port": 3306,
     "user": "text2sql",
     "password": "xxx",
