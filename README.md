@@ -29,4 +29,4 @@ DB_CONFIG = {
 }
 ```
 ### 3. 运行
-执行语句 `python main.py`， 在浏览器打开`http://localhost:7680`即可运行。
+执行语句 `python main.py`， 在浏览器打开`http://localhost:7860`即可运行。
